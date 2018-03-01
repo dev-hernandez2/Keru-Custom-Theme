@@ -139,7 +139,7 @@ class Functions
         //Registr Sidebar
         add_action('widgets_init', array($this, 'register_sidebar'));
 
-        //medu
+        //menu
         add_action('init', array($this, 'register_menus'));
 
         /**
